@@ -1,0 +1,32 @@
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 400px;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px rgba(128, 128, 128, 0.572);
+  margin: 30px auto;
+  border: 1px solid rgba(128, 128, 128, 0.572);
+  margin-bottom: 30px;
+}
+
+.input-group {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+table {
+  width: 900px;
+  margin: 30px auto;
+  border-collapse: collapse;
+  border: 1px solid rgba(128, 128, 128, 0.572);
+  box-shadow: 2px 2px 3px rgba(128, 128, 128, 0.572);
+}
+
+tr,
+td,
+th {
+  border-collapse: collapse;
+  border: 1px solid rgba(128, 128, 128, 0.572);
+}
